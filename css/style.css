@@ -13,12 +13,14 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  border: 1px solid rgb(221, 61, 61);
+  width: 420px;
   border-radius: 5px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 25px;
   border-right: none;
+  display: flex;
+  margin-bottom: 30px;
 }
 .search-button {
   padding: 10px 50px;
@@ -28,6 +30,7 @@ body {
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
   /* border: 1px solid black; */
   text-align: center;
   width: 100%;
@@ -37,12 +40,7 @@ body {
 }
 .single-product {
   padding: 10px;
-  transition: 0.6s;
-}
-.single-product:hover {
-  box-shadow: 4px 4px 7px gray;
-  border-radius: 10px;
-  border: 1px solid cyan;
+  height: 580px;
 }
 .product-image {
   width: 150px;
